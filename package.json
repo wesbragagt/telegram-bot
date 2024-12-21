@@ -1,0 +1,13 @@
+{
+  "engines": {
+    "node": ">=22",
+    "npm": ">=8"
+  },
+  "scripts": {
+    "start": "node --env-file=.env --experimental-strip-types main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
